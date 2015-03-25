@@ -38,7 +38,7 @@ html {
 body {
   background-color: white;
   font-family: Roboto;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 1.45;
   color: #333; }
 
@@ -70,8 +70,8 @@ small, .font_small {
   box-sizing: border-box; }
 
 body {
-  background: #0D3824;
-  color: #92D5E6; }
+  background: #92D5E6;
+  color: #41463D; }
 
 .container {
   width: 100%;
@@ -82,7 +82,7 @@ body {
   float: left;
   width: 25%;
   height: 1000px;
-  background-color: #1CFEBA; }
+  background-color: #41463D; }
 
 .right {
   float: right;
@@ -91,7 +91,9 @@ body {
   background-color: #41463D; }
 
 .header {
-  float: left;
-  width: 50%;
-  height: 100%;
-  background-color: #9D8DF1; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #9D8DF1;
+  padding: .5% 0 0 0; }
