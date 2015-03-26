@@ -1,4 +1,24 @@
-body {
-  background: #222;
-  color: #93DE7F;
+@import 'reset';
+@import 'color';
+@import 'type';
+
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+
+.ay{
+   background: #000000;
+   text-decoration: underline;
+   font-size: 85px;
+   margin: 20px;
+   height: 110px;
+}
+
+.bay{
+   font-size: 50px;
+}
+
+.cay{
+   width: 100px;
+   height: 100px;
+   background: #000000;
 }
