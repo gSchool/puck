@@ -1,4 +1,29 @@
+@import 'reset';
+@import 'colors';
+@import 'type';
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
 body {
-  background: #222;
-  color: #93DE7F;
+  background: $green;
+  color: white;
+  padding-top: 50px;
+  font-family: Josefin Sans;
+}
+
+img {
+  width: 400px;
+  margin-left: 300px;
+}
+
+.text {
+  display: inline;
+  float: right;
+  width: 400px;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+
+.join {
+  text-align: center;
+  padding-top: 20px;
 }
