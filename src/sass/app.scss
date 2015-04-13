@@ -1,4 +1,42 @@
+@import 'reset';
+@import 'colors';
+@import url(http://fonts.googleapis.com/css?family=Chivo);
+@import 'type';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container{
+  overflow: hidden;
+  width: 75%;
+  margin: 0 auto;
+}
+
 body {
-  background: #222;
-  color: #93DE7F;
+  background: $mint;
+  color: $green-brown;
+  font-family: Chivo;
+}
+
+h1 {
+  padding-top: 60px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.pinky {
+  padding: 10px;
+}
+
+.about {
+  float: left;
+  background-image: url(http://fc01.deviantart.net/fs41/f/2009/032/1/9/Pinky_and_the_Brain_by_sma_rmy.jpg);
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+  margin: 10px;
 }
