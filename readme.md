@@ -19,7 +19,7 @@ Everything is compiled into the `dist` directory.
 ## Server
 1. In the terminal, `cd` into the puck directory
 1. Run `npm run watch` to start a server and build assets.
-1. Visit localhost:8000 to see it in action.
+1. Visit localhost:8080 to see it in action.
 
 ## Live Reloading
 
